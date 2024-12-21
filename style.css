@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+
+}
+.topo, .rodape {
+    background-color: #ff801a;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    width: 100%;
+    padding: 16px 0;
+}
+.limite-largura {
+    width: 100%;
+    min-height: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.area {
+    margin: 20px 35px;
+}
+.apresentacao {
+    width: calc(100% - 70px);
+    height: 315px;
+    overflow-y: scroll;
+
+}
+.galeria {
+    width: calc(100% - 70px);
+}
+.area p, .area-cinque-fotos {
+    width: 100%;
+    margin: 15px 0;
+}
+.area-cinque-fotos{
+    display: flex;
+    overflow-x: scroll;
+} 
+.galeria img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+
+}
